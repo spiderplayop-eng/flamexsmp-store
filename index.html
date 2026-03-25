@@ -12,32 +12,29 @@
       font-family: Arial, sans-serif;
       color: white;
 
-      background-image: url('bg.gif');
+      background: url("bg.jpg") no-repeat center center;
       background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
     }
 
     h1 {
       text-align: center;
-      padding-top: 30px;
+      padding: 30px;
     }
 
     .container {
-      text-align: center;
-      margin-top: 50px;
+      display: flex;
+      justify-content: center; /* center align */
+      flex-wrap: wrap; /* next line if space kam ho */
+      gap: 20px;
     }
 
     .card {
-      display: inline-block;
-      margin: 20px;
       padding: 20px;
-      width: 220px;
+      width: 200px;
       border-radius: 10px;
+      text-align: center;
 
-      background: rgba(255,255,255,0.1);
-      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.15);
     }
 
     button {
